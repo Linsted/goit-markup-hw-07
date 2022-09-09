@@ -15,26 +15,25 @@
 	<body>
 		
 		<header class="header">
-			<div class="container main-links">
-			<nav
-			class="main-nav">
+			<div class="container container--main-links">
+			<nav class="main-nav">
 				<a href="./index.html" class="logo" id="logo-up-link">
-					<span class="logo-web">Web</span>Studio
+					<span class="logo__web">Web</span>Studio
 				</a>
-				<ul class="nav-list">
-					<li class="nav-list-links"><a href="./index.html" class="studio">Студія</a></li>
-					<li class="nav-list-links"><a href="./portfolio.html">Портфоліо</a></li>
-					<li class="nav-list-links"><a href="">Контакти</a></li>
+				<ul class="main-nav__list">
+					<li class="main-nav__item"><a class="main-nav_link studio" href="./index.html" >Студія</a></li>
+					<li class="main-nav__item"><a class="main-nav_link" href="./portfolio.html">Портфоліо</a></li>
+					<li class="main-nav__item"><a class="main-nav_link" href="">Контакти</a></li>
 				</ul>
 			</nav>
 
-			<ul class="nav-contacts">
-				<li class="nav-list-links"> 
-				    <a href="mailto:info@devstudio.com"><svg class="nav-icon-mail">
+			<ul class="main-nav__contacts">
+				<li class="main-nav__item"> 
+				    <a href="mailto:info@devstudio.com"><svg class="main-nav__icon-mail">
 					<use href="./images/icons-opt.svg#icon-envelope"></use></svg>info@devstudio.com</a>
 			</li>
-				<li class="nav-list-links">
-					<a href="tel:+380961111111"><svg class="nav-icon-tel">
+				<li class="main-nav__item">
+					<a href="tel:+380961111111"><svg class="main-nav__icon-mail">
 					<use href="./images/icons-opt.svg#icon-phone"></use></svg>+38 096 111 11 11</a>
 				</li>
 			</ul>
@@ -43,16 +42,16 @@
 		
 		<main>
 			<section class="hero">
-				<div class="container hero-title">
-				<h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
+				<div class="container hero--width">
+				<h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
 				<button type="button" class="button-order" data-modal-open>Замовити послугу</button>
 				</div>
 			</section>
 			
 
-			<section class="features section-paddings">
+			<section class="features">
 				<div class="container">
-				<h2 class="section-title visually-hidden">Особливості</h2>
+				<h2 class="features__title visually-hidden">Особливості</h2>
 				<ul class="features-items">
 					<li>
 						<div class="features-picture">
@@ -96,7 +95,7 @@
 
 			<section class="our-work">
 				<div class="container">
-				<h2 class="section-title">Чим ми займаємося</h2>
+				<h2 class="features__title">Чим ми займаємося</h2>
 				<ul class="our-work-list">
 					<li class="our-work-items">
 						<img src="./images/dekstop.jpg" alt="Зображення настільного комп'ютера" width="370" />
@@ -116,7 +115,7 @@
 
 			<section class="our-team section-paddings">
 				<div class="container">
-				<h2 class="section-title">Наша команда</h2>
+				<h2 class="features__title">Наша команда</h2>
 				<ul class="our-team-list">
 					<li class="our-team-item">
 						<img src="./images/ihor.jpg" alt="Фото Ігора Дем'яненка" width="270" />
@@ -176,7 +175,7 @@
 
 			<section class="clients section-paddings">
 				<div class="container">
-				<h2 class="section-title">Постійні клієнти</h2>
+				<h2 class="features__title">Постійні клієнти</h2>
 				<ul class="clients-list">
 					<li class="clients-item"><a class="client-link" href=""><svg class="client-icon"><use href="./images/icons-opt.svg#icon-company-logo-1"></use></svg></a></li>
 					<li class="clients-item"><a class="client-link" href=""><svg class="client-icon"><use href="./images/icons-opt.svg#icon-company-logo-2"></use></svg></a></li>
