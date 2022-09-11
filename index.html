@@ -10,7 +10,7 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-		<link rel="stylesheet" href="./styles/styles.css" />
+		<link rel="stylesheet" href="./dist/css/main.min.css" />
 	</head>
 	<body>
 		
@@ -42,13 +42,13 @@
 		
 		<main>
 			<section class="hero">
-				<div class="container hero--width">
+				<div class="container container--width">
 				<h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
 				<button type="button" class="button-order" data-modal-open>Замовити послугу</button>
 				</div>
 			</section>
 			
-
+            <!-- Features section -->
 			<section class="section">
 				<div class="container">
 				<h2 class="visually-hidden">Особливості</h2>
@@ -68,7 +68,7 @@
 							<use href="./images/icons-opt.svg#icon-features-img-2"></use>
 						</svg>
 						</div>
-						<h3 class="features-list_title">Пунктуальність</h3>
+						<h3 class="features-list__title">Пунктуальність</h3>
 						<p class="features-list__text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
 					</li>
 					<li class="features-list__item">
@@ -92,7 +92,7 @@
 				</ul>
 				</div>
 			</section>
-
+			<!-- Our-work section -->
 			<section class="section section--our-work">
 				<div class="container">
 				<h2 class="setion__title">Чим ми займаємося</h2>
@@ -112,7 +112,7 @@
 				</ul>
 				</div>
 			</section>
-
+			<!-- Our-team section -->
 			<section class="section section--background-color">
 				<div class="container">
 				<h2 class="setion__title">Наша команда</h2>
@@ -294,8 +294,8 @@
 						<label class="modal-form__label" for="user-comment">Коментар</label>
 						<textarea class="modal-form__textarea" name="user comment" id="user-comment" placeholder="Введіть текст"></textarea>
 					</div>
-					<div class="modal-form__field inline-direction">	
-						<label class="modal-form__label checkbox-label" for="checkbox">
+					<div class="modal-form__field modal-form__field--inline">	
+						<label class="modal-form__label modal-form__label--checkbox" for="checkbox">
 							<input class="modal-form__checkbox" type="checkbox" name="terms policy" id="checkbox">
 							<div class="modal-form__box"></div><span><span class="modal-form__agreed-text">Погоджуюся з розсилкою та приймаю</span> <a class="modal-form__agreed-link" href="">Умови договору</a></span>
 						</label>

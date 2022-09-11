@@ -1,0 +1,43 @@
+/* Features */
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.features-list {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    
+    &__title {
+        margin-bottom: 10px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.14;
+        text-transform: uppercase;
+    }
+   
+    &__text {
+        line-height: 1.71;
+        color: #757575;
+    }
+    
+    &__item {
+        width: calc((100% - 3*30px)/4)
+    }
+    
+    &__picture {
+        width: 270px;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+        
+        background-color: #F5F4FA;
+    }
+    
+    &__icon {
+        width: 70px;
+        height: 70px;
+    }
+}
